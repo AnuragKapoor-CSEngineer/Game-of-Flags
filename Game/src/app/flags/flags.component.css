@@ -1,0 +1,12 @@
+.correct
+{
+    color: green;
+}
+.wrong
+{
+    color: red;
+}
+.bgimg
+{
+    background-image: url(anurag.jpg);
+}

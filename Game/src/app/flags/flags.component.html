@@ -1,0 +1,18 @@
+<div  >
+&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<button type="button"   (click)="start()" >Start the Game</button> &nbsp; &nbsp; &nbsp;
+<button type="button"   (click)="start1()" >Reset the Game</button>
+<br>
+<span style="width:10em; line-height: 10em" class="flag-icon flag-icon-{{countryISOCode}}"></span>
+<br>
+<br>
+<h3>{{country1}} &nbsp; &nbsp; <button (click)="option1()">Click</button></h3>
+<h3>{{country2}} <button (click)="option2()">Click</button> </h3>
+<h3>{{country3}} <button (click)="option3()">Click</button> </h3>
+<h3>{{country4}} <button (click)="option4()">Click</button> </h3>
+<!--<h1  [ngClass]="{'correct': ans =='Correct' ,'wrong': ans=='Sorry Wrong Answer'}">{{ans}}</h1>-->
+&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
+<h1 [ngClass]="{'green':ans=='Correct'}">{{ans}}</h1>
+<!--<h1 *ngIf ="name && name == countryName">Correct</h1>-->
+<h1>Score is {{p}}</h1>
+
+
